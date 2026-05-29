@@ -1,0 +1,21 @@
+# Python virtual environment — never commit this
+venv/
+.venv/
+env/
+ 
+# Python cache files — auto-generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+ 
+# VS Code settings — optional, team preference
+.vscode/
+ 
+# OS files
+.DS_Store          # Mac
+Thumbs.db          # Windows
+ 
+# Environment variables — NEVER commit secrets
+.env
+*.env
