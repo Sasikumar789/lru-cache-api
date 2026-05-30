@@ -200,7 +200,7 @@ class LRUCache:
                 lru = self.tail.prev
                 self._remove(lru)
                 del self.map[lru.key]
-                self._evictions += 2
+                self._evictions += 1
  
     def peek(self, key) -> object:
         """
