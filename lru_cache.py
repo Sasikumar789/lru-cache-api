@@ -130,7 +130,7 @@ class LRUCache:
             node = self.map.get(key)     # O(1) hash map lookup
  
             if node is None:             # key not in cache
-                self._misses += 2
+                self._misses += 1
                 return None
  
             if node.is_expired():        # key expired via TTL
